@@ -14,7 +14,7 @@ function Edit({id}) {
     <Modal
       closeIcon
       open={open}
-      trigger={<Button>Edit</Button>}
+      trigger={<Button style={{color:"brown"}}>Edit</Button>}
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
     >

@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 // import { Input } from "semantic-ui-react";
 import { useDispatch } from "react-redux";
 import { addTodo } from './../redux/actions/actions';
+import "./ToDoList.css"
 
 export const AddtoDo = () => {
     // const [text, setText] = useState("");
