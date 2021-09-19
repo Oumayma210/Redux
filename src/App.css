@@ -1,12 +1,12 @@
 .App {
-  background-image: url(https://th.bing.com/th/id/R.8d7ac5b1e380be0acf9dacf343160fdd?rik=hgLpAEhMLo0Muw&pid=ImgRaw&r=0);
+  /* background-image: url(https://th.bing.com/th/id/R.8d7ac5b1e380be0acf9dacf343160fdd?rik=hgLpAEhMLo0Muw&pid=ImgRaw&r=0); */
   text-align: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  color:brown;
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+  color:black;
 }
 
 .Item {
@@ -16,3 +16,24 @@
   margin: auto;
   margin-top: 20px;
 }
+ h1,h3,h4{
+  font-family: 'Gluten', cursive !important;
+;}
+p{  font-family: 'Gluten', cursive !important;
+font-size: 16px ;}
+Button{
+  font-family: 'Gluten', cursive !important;}
+
+
+.footer{
+  background-color:rgba(163, 161, 161, 0.781);
+}
+
+  .ui.secondary.menu .item {
+    font-size: large;
+    font-family: 'Gluten', cursive !important;
+   
+}
+  .todolist{
+    margin-bottom: 150.5px;
+  }

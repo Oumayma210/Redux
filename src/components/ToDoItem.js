@@ -9,7 +9,7 @@ const ToDoItem = ({ todo }) => {
     const dispatch=useDispatch()
 return(
     <div className='Item'>
-        <h3>{todo.task}</h3>
+        <h4>{todo.task}</h4>
         <Button.Group >
             <Edit id={todo.id} />
             <Button style={{color:"brown"}}onClick={()=>dispatch(Done(todo.id))} >{todo.Done?"unDone":"Done"}</Button>
